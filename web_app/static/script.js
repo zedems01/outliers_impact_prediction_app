@@ -1,5 +1,5 @@
 async function getPrediction() {
-    // Récupérer les valeurs des champs
+    // Recover values
     const data = {
         MedInc: parseFloat(document.getElementById("MedInc").value),
         HouseAge: parseFloat(document.getElementById("HouseAge").value),
@@ -12,7 +12,7 @@ async function getPrediction() {
     };
 
     try {
-        // Envoyer la requête POST
+        // Send the POST request
         const response = await fetch("/predict", {
             method: "POST",
             headers: {
@@ -21,7 +21,7 @@ async function getPrediction() {
             body: JSON.stringify(data)
         });
 
-        // Extraire la réponse JSON
+        // Extract JSON response
         const result = await response.json();
         document.getElementById("prediction-value").innerText = `$${(result.prediction*100).toFixed(0)}k`;
 
