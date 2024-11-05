@@ -12,7 +12,7 @@ app.mount("/static", StaticFiles(directory="static"), name="static")
 
 # model = pickle.load(open("../data/regmodel.pkl", 'rb'))
 # scaler = pickle.load(open('../data/stdscaler.pkl', 'rb'))
-with open('../data/CatBoostRegressor.pkl', 'rb') as f:
+with open('CatBoostRegressor.pkl', 'rb') as f:
     best_model = pickle.load(f)
 
 templates = Jinja2Templates(directory="templates")

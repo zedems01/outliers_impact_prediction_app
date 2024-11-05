@@ -1,0 +1,28 @@
+# Ignorer les fichiers de configuration et de système
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+.venv/
+
+# Ignorer les fichiers de configuration d'éditeur
+.vscode/
+.idea/
+*.swp
+
+# Ignorer les fichiers et dossiers non nécessaires
+.DS_Store
+.git
+.gitignore
+
+# Ignorer les données et fichiers temporaires
+*.log
+*.tmp
+*.bak
+
+# Ignorer les fichiers de test et de documentation, si non nécessaires dans l'image
+*.env
+.venv/
+static_app.py
+test_API.py
+index0.html
