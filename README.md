@@ -2,7 +2,7 @@
 
 ## Getting Started
 
-Setting up the project in a docker container is the easiest way to ensure no package versioning conflicts with your environment. I created an image for this project which can be found [here](https://hub.docker.com/repositories/zedems/pricing_web_app).   
+Setting up the project in a docker container is the easiest way to ensure no package versioning conflicts with your environment. I created an image for this project which can be found [here](https://hub.docker.com/repositories/zedems/web_pricing_app).   
 
 ```
 1. docker pull zedems/web_pricing_app   
