@@ -1,4 +1,14 @@
-# ML Project: California Housing Dataset
+# ML Project: California Housing Prediction
+
+## Getting Started
+
+Setting up the project in a docker container is the easiest way to ensure no package versioning conflicts with your environment. I created an image for this project which can be found [here](https://hub.docker.com/repositories/zedems/pricing_web_app).   
+
+```
+1. docker pull zedems/web_pricing_app   
+2. docker run -itd -p *port*:8000 --name *container_name* zedems/web_pricing_app 
+3. App available at http://localhost:*port*
+```
 
 The California Housing dataset provides data on various housing attributes across different districts in California, aiming to predict median house values. It originates from the 1990 U.S. Census and includes details for each block group, which typically represents populations ranging from 600 to 3,000 individuals.
 
