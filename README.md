@@ -1,4 +1,4 @@
-# ML Project: California Housing Prediction
+# ML Project: Real Estate Price Prediction
 
 ## Getting Started
 
