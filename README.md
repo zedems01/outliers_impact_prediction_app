@@ -42,4 +42,4 @@ Since the average number of rooms and bedrooms is provided per household, these 
 
 ## References
 
-- Pace, R. Kelley, and Ronald Barry, "Sparse Spatial Autoregressions," *Statistics and Probability Letters*, 33 (1997) 291-297.
+- Pace, R. Kelley, and Ronald Barry, "Sparse Spatial Autoregressions", *Statistics and Probability Letters*, 33 (1997) 291-297.
