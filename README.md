@@ -1,4 +1,4 @@
-# ML Project: Real Estate Price Prediction
+# ML Project: Outliers Impact
 
 ## Getting Started
 
